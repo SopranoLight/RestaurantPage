@@ -3,15 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="./style.scss">
-     <link rel="stylesheet" href="./pages/scss/font.scss">
+    <link rel="stylesheet" href="./style.scss" />
+    <link rel="stylesheet" href="./pages/scss/font.scss" />
     <title>Landing Vite</title>
   </head>
   <body>
-   <header class="header">
-    
-   </header>
-   <main></main>
-   <footer class="footer"></footer>
+    <header class="header">
+      <div class="nav">
+        <span class="nav__logo">Foodtuck</span>
+        <nav class="nav__navigation">
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#">Home</a></li>
+            <li><a class="nav__link" href="#">Menu</a></li>
+            <li><a class="nav__link" href="#">Blog</a></li>
+            <li><a class="nav__link" href="#">Pages</a></li>
+            <li><a class="nav__link" href="#">About</a></li>
+            <li><a class="nav__link" href="#">Shop</a></li>
+            <li><a class="nav__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav__icons">
+          <svg
+            class="nav__icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.875 18.7502C15.2242 18.7502 18.75 15.2245 18.75 10.8752C18.75 6.526 15.2242 3.00024 10.875 3.00024C6.52576 3.00024 3 6.526 3 10.8752C3 15.2245 6.52576 18.7502 10.875 18.7502Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M16.4431 16.4441L20.9994 21.0004"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <svg
+            class="nav__icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.5787 20.2502H4.42129C4.23671 20.2502 4.05862 20.1822 3.92109 20.0591C3.78356 19.936 3.69625 19.7665 3.67587 19.5831L2.34254 7.58307C2.33089 7.47823 2.34149 7.37212 2.37363 7.27166C2.40578 7.1712 2.45876 7.07865 2.52911 7.00005C2.59945 6.92146 2.68559 6.85858 2.78188 6.81554C2.87818 6.77249 2.98247 6.75024 3.08795 6.75024H20.9121C21.0175 6.75024 21.1218 6.77249 21.2181 6.81554C21.3144 6.85858 21.4006 6.92146 21.4709 7.00005C21.5412 7.07865 21.5942 7.1712 21.6264 7.27166C21.6585 7.37212 21.6691 7.47823 21.6575 7.58307L20.3241 19.5831C20.3038 19.7665 20.2164 19.936 20.0789 20.0591C19.9414 20.1822 19.7633 20.2502 19.5787 20.2502Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8.25 9.75024V6.75024C8.25 5.75568 8.64509 4.80186 9.34835 4.09859C10.0516 3.39533 11.0054 3.00024 12 3.00024C12.9946 3.00024 13.9484 3.39533 14.6517 4.09859C15.3549 4.80186 15.75 5.75568 15.75 6.75024V9.75024"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <svg
+            class="nav__icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 15.0002C15.3137 15.0002 18 12.314 18 9.00024C18 5.68654 15.3137 3.00024 12 3.00024C8.68629 3.00024 6 5.68654 6 9.00024C6 12.314 8.68629 15.0002 12 15.0002Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M2.90521 20.2494C3.8273 18.6533 5.15316 17.328 6.7496 16.4067C8.34605 15.4853 10.1568 15.0002 12.0001 15.0002C13.8434 15.0003 15.6541 15.4853 17.2506 16.4068C18.847 17.3282 20.1728 18.6535 21.0949 20.2496"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <section class="main">
+        <div class="main__left">
+          <span class="miniver">Healthy &amp; Testy Food</span>
+          <h1 class="main__title title">
+            Enjoy Healthy Life &amp; Testy Food.
+          </h1>
+          <p class="main_paragraf paragraf">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
+            pharetra dictum neque massa congue
+          </p>
+          <a class="main__btn btn" href="#">Show more</a>
+          <a class="main__btn btn" href="#">Place an order</a>
+        </div>
+        <div class="main__right"></div>
+      </section>
+      <div class="scroll"></div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="about__img">
+          <img src="#" alt="" />
+          <img src="#" alt="" />
+          <img src="#" alt="" />
+        </div>
+        <div class="about__text">
+          <span class="miniver">About us</span>
+          <h2 class="title-min">
+            Food is an important part Of a balanced Diet
+          </h2>
+          <p class="paragraf">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            diam pellentesque bibendum non dui volutpat fringilla bibendum.
+            Urna, elit augue urna, vitae feugiat pretium donec id elementum.
+            Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
+            velit in consequat.
+          </p>
+          <div class="about__btns">
+            <a class="btn" href="#">Show more</a>
+            <a class="about__btn" href="#"
+              ><svg
+              class="about__video"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.3888 11.3602L7.89101 3.11126C7.77732 3.04179 7.64717 3.00385 7.51395 3.00135C7.38073 2.99886 7.24926 3.0319 7.13305 3.09707C7.01683 3.16225 6.92008 3.2572 6.85274 3.37217C6.7854 3.48714 6.74991 3.61798 6.74991 3.75122V20.2491C6.74991 20.3823 6.7854 20.5132 6.85274 20.6281C6.92008 20.7431 7.01683 20.8381 7.13305 20.9032C7.24926 20.9684 7.38073 21.0015 7.51395 20.999C7.64717 20.9965 7.77732 20.9585 7.89101 20.889L21.3888 12.6401C21.4984 12.5731 21.589 12.4791 21.6519 12.367C21.7147 12.255 21.7477 12.1286 21.7477 12.0002C21.7477 11.8717 21.7147 11.7454 21.6519 11.6333C21.589 11.5212 21.4984 11.4272 21.3888 11.3602Z"
+                  stroke="white"
+                  stroke-width="1.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Watch video 
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
   </body>
 </html>
